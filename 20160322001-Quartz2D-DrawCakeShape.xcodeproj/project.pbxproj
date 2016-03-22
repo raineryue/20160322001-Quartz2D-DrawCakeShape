@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D56262071CA0F08200DBED06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D56262061CA0F08200DBED06 /* main.m */; };
+		D562620A1CA0F08200DBED06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D56262091CA0F08200DBED06 /* AppDelegate.m */; };
+		D562620D1CA0F08200DBED06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D562620C1CA0F08200DBED06 /* ViewController.m */; };
+		D56262101CA0F08200DBED06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D562620E1CA0F08200DBED06 /* Main.storyboard */; };
+		D56262121CA0F08200DBED06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D56262111CA0F08200DBED06 /* Assets.xcassets */; };
+		D56262151CA0F08200DBED06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56262131CA0F08200DBED06 /* LaunchScreen.storyboard */; };
+		D56262201CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D562621F1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeTests.m */; };
+		D562622B1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D562622A1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D562621C1CA0F08200DBED06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D56261FA1CA0F08200DBED06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56262011CA0F08200DBED06;
+			remoteInfo = "20160322001-Quartz2D-DrawCakeShape";
+		};
+		D56262271CA0F08200DBED06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D56261FA1CA0F08200DBED06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D56262011CA0F08200DBED06;
+			remoteInfo = "20160322001-Quartz2D-DrawCakeShape";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D56262021CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160322001-Quartz2D-DrawCakeShape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D56262061CA0F08200DBED06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D56262081CA0F08200DBED06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D56262091CA0F08200DBED06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D562620B1CA0F08200DBED06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D562620C1CA0F08200DBED06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D562620F1CA0F08200DBED06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D56262111CA0F08200DBED06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D56262141CA0F08200DBED06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D56262161CA0F08200DBED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D562621B1CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160322001-Quartz2D-DrawCakeShapeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D562621F1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160322001_Quartz2D_DrawCakeShapeTests.m; sourceTree = "<group>"; };
+		D56262211CA0F08200DBED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D56262261CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160322001-Quartz2D-DrawCakeShapeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D562622A1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160322001_Quartz2D_DrawCakeShapeUITests.m; sourceTree = "<group>"; };
+		D562622C1CA0F08200DBED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D56261FF1CA0F08200DBED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56262181CA0F08200DBED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56262231CA0F08200DBED06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D56261F91CA0F08200DBED06 = {
+			isa = PBXGroup;
+			children = (
+				D56262041CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShape */,
+				D562621E1CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeTests */,
+				D56262291CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeUITests */,
+				D56262031CA0F08200DBED06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D56262031CA0F08200DBED06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D56262021CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShape.app */,
+				D562621B1CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeTests.xctest */,
+				D56262261CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D56262041CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShape */ = {
+			isa = PBXGroup;
+			children = (
+				D56262081CA0F08200DBED06 /* AppDelegate.h */,
+				D56262091CA0F08200DBED06 /* AppDelegate.m */,
+				D562620B1CA0F08200DBED06 /* ViewController.h */,
+				D562620C1CA0F08200DBED06 /* ViewController.m */,
+				D562620E1CA0F08200DBED06 /* Main.storyboard */,
+				D56262111CA0F08200DBED06 /* Assets.xcassets */,
+				D56262131CA0F08200DBED06 /* LaunchScreen.storyboard */,
+				D56262161CA0F08200DBED06 /* Info.plist */,
+				D56262051CA0F08200DBED06 /* Supporting Files */,
+			);
+			path = "20160322001-Quartz2D-DrawCakeShape";
+			sourceTree = "<group>";
+		};
+		D56262051CA0F08200DBED06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D56262061CA0F08200DBED06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D562621E1CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D562621F1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeTests.m */,
+				D56262211CA0F08200DBED06 /* Info.plist */,
+			);
+			path = "20160322001-Quartz2D-DrawCakeShapeTests";
+			sourceTree = "<group>";
+		};
+		D56262291CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D562622A1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeUITests.m */,
+				D562622C1CA0F08200DBED06 /* Info.plist */,
+			);
+			path = "20160322001-Quartz2D-DrawCakeShapeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D56262011CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D562622F1CA0F08200DBED06 /* Build configuration list for PBXNativeTarget "20160322001-Quartz2D-DrawCakeShape" */;
+			buildPhases = (
+				D56261FE1CA0F08200DBED06 /* Sources */,
+				D56261FF1CA0F08200DBED06 /* Frameworks */,
+				D56262001CA0F08200DBED06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160322001-Quartz2D-DrawCakeShape";
+			productName = "20160322001-Quartz2D-DrawCakeShape";
+			productReference = D56262021CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D562621A1CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56262321CA0F08200DBED06 /* Build configuration list for PBXNativeTarget "20160322001-Quartz2D-DrawCakeShapeTests" */;
+			buildPhases = (
+				D56262171CA0F08200DBED06 /* Sources */,
+				D56262181CA0F08200DBED06 /* Frameworks */,
+				D56262191CA0F08200DBED06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D562621D1CA0F08200DBED06 /* PBXTargetDependency */,
+			);
+			name = "20160322001-Quartz2D-DrawCakeShapeTests";
+			productName = "20160322001-Quartz2D-DrawCakeShapeTests";
+			productReference = D562621B1CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D56262251CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D56262351CA0F08200DBED06 /* Build configuration list for PBXNativeTarget "20160322001-Quartz2D-DrawCakeShapeUITests" */;
+			buildPhases = (
+				D56262221CA0F08200DBED06 /* Sources */,
+				D56262231CA0F08200DBED06 /* Frameworks */,
+				D56262241CA0F08200DBED06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D56262281CA0F08200DBED06 /* PBXTargetDependency */,
+			);
+			name = "20160322001-Quartz2D-DrawCakeShapeUITests";
+			productName = "20160322001-Quartz2D-DrawCakeShapeUITests";
+			productReference = D56262261CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D56261FA1CA0F08200DBED06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D56262011CA0F08200DBED06 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D562621A1CA0F08200DBED06 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D56262011CA0F08200DBED06;
+					};
+					D56262251CA0F08200DBED06 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D56262011CA0F08200DBED06;
+					};
+				};
+			};
+			buildConfigurationList = D56261FD1CA0F08200DBED06 /* Build configuration list for PBXProject "20160322001-Quartz2D-DrawCakeShape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D56261F91CA0F08200DBED06;
+			productRefGroup = D56262031CA0F08200DBED06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D56262011CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShape */,
+				D562621A1CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeTests */,
+				D56262251CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D56262001CA0F08200DBED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56262151CA0F08200DBED06 /* LaunchScreen.storyboard in Resources */,
+				D56262121CA0F08200DBED06 /* Assets.xcassets in Resources */,
+				D56262101CA0F08200DBED06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56262191CA0F08200DBED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56262241CA0F08200DBED06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D56261FE1CA0F08200DBED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D562620D1CA0F08200DBED06 /* ViewController.m in Sources */,
+				D562620A1CA0F08200DBED06 /* AppDelegate.m in Sources */,
+				D56262071CA0F08200DBED06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56262171CA0F08200DBED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D56262201CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56262221CA0F08200DBED06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D562622B1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D562621D1CA0F08200DBED06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56262011CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShape */;
+			targetProxy = D562621C1CA0F08200DBED06 /* PBXContainerItemProxy */;
+		};
+		D56262281CA0F08200DBED06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D56262011CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShape */;
+			targetProxy = D56262271CA0F08200DBED06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D562620E1CA0F08200DBED06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D562620F1CA0F08200DBED06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D56262131CA0F08200DBED06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D56262141CA0F08200DBED06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D562622D1CA0F08200DBED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D562622E1CA0F08200DBED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D56262301CA0F08200DBED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160322001-Quartz2D-DrawCakeShape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160322001-Quartz2D-DrawCakeShape";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D56262311CA0F08200DBED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160322001-Quartz2D-DrawCakeShape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160322001-Quartz2D-DrawCakeShape";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D56262331CA0F08200DBED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160322001-Quartz2D-DrawCakeShapeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160322001-Quartz2D-DrawCakeShapeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160322001-Quartz2D-DrawCakeShape.app/20160322001-Quartz2D-DrawCakeShape";
+			};
+			name = Debug;
+		};
+		D56262341CA0F08200DBED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160322001-Quartz2D-DrawCakeShapeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160322001-Quartz2D-DrawCakeShapeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160322001-Quartz2D-DrawCakeShape.app/20160322001-Quartz2D-DrawCakeShape";
+			};
+			name = Release;
+		};
+		D56262361CA0F08200DBED06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160322001-Quartz2D-DrawCakeShapeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160322001-Quartz2D-DrawCakeShapeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160322001-Quartz2D-DrawCakeShape";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D56262371CA0F08200DBED06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160322001-Quartz2D-DrawCakeShapeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160322001-Quartz2D-DrawCakeShapeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160322001-Quartz2D-DrawCakeShape";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D56261FD1CA0F08200DBED06 /* Build configuration list for PBXProject "20160322001-Quartz2D-DrawCakeShape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D562622D1CA0F08200DBED06 /* Debug */,
+				D562622E1CA0F08200DBED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D562622F1CA0F08200DBED06 /* Build configuration list for PBXNativeTarget "20160322001-Quartz2D-DrawCakeShape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56262301CA0F08200DBED06 /* Debug */,
+				D56262311CA0F08200DBED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D56262321CA0F08200DBED06 /* Build configuration list for PBXNativeTarget "20160322001-Quartz2D-DrawCakeShapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56262331CA0F08200DBED06 /* Debug */,
+				D56262341CA0F08200DBED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D56262351CA0F08200DBED06 /* Build configuration list for PBXNativeTarget "20160322001-Quartz2D-DrawCakeShapeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D56262361CA0F08200DBED06 /* Debug */,
+				D56262371CA0F08200DBED06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D56261FA1CA0F08200DBED06 /* Project object */;
+}
