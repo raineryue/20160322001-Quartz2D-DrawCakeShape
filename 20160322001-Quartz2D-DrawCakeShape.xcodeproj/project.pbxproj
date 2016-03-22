@@ -15,6 +15,7 @@
 		D56262151CA0F08200DBED06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D56262131CA0F08200DBED06 /* LaunchScreen.storyboard */; };
 		D56262201CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D562621F1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeTests.m */; };
 		D562622B1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D562622A1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeUITests.m */; };
+		D562623A1CA0F0F000DBED06 /* CakeShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D56262391CA0F0F000DBED06 /* CakeShapeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D56262261CA0F08200DBED06 /* 20160322001-Quartz2D-DrawCakeShapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160322001-Quartz2D-DrawCakeShapeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D562622A1CA0F08200DBED06 /* _0160322001_Quartz2D_DrawCakeShapeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160322001_Quartz2D_DrawCakeShapeUITests.m; sourceTree = "<group>"; };
 		D562622C1CA0F08200DBED06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D56262381CA0F0F000DBED06 /* CakeShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CakeShapeView.h; sourceTree = "<group>"; };
+		D56262391CA0F0F000DBED06 /* CakeShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CakeShapeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				D562620B1CA0F08200DBED06 /* ViewController.h */,
 				D562620C1CA0F08200DBED06 /* ViewController.m */,
 				D562620E1CA0F08200DBED06 /* Main.storyboard */,
+				D56262381CA0F0F000DBED06 /* CakeShapeView.h */,
+				D56262391CA0F0F000DBED06 /* CakeShapeView.m */,
 				D56262111CA0F08200DBED06 /* Assets.xcassets */,
 				D56262131CA0F08200DBED06 /* LaunchScreen.storyboard */,
 				D56262161CA0F08200DBED06 /* Info.plist */,
@@ -272,6 +277,7 @@
 			files = (
 				D562620D1CA0F08200DBED06 /* ViewController.m in Sources */,
 				D562620A1CA0F08200DBED06 /* AppDelegate.m in Sources */,
+				D562623A1CA0F0F000DBED06 /* CakeShapeView.m in Sources */,
 				D56262071CA0F08200DBED06 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
