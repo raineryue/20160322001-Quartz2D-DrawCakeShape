@@ -75,10 +75,16 @@
     // 用三次循环来切总比
     for (int i = 0; i < 3; i++) {
         // 从总比中切除一块
-        temp = arc4random_uniform(count);
+        temp = arc4random_uniform(count) + 1;
         
         // 将切除的一块放入数组
         [arcRandomArray addObject:@(temp)];
+        
+        // 当随机出来的值等于总数时，直接就推出循环了，因为已经把总量分配完了就没有必要再分配了
+        // 解决方案：当随机出来临时变量 == 总数 时跳出循环
+        if (temp == count) {
+            break;
+        }
         
         // 剩下的一块
         count -= temp;
